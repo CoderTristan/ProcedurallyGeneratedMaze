@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://dim3n6upgg5k3"]
+
+[ext_resource type="Script" uid="uid://puaw1iepvgx7" path="res://scripts/game.gd" id="1_uwrxv"]
+
+[sub_resource type="Environment" id="Environment_uwrxv"]
+background_mode = 1
+background_color = Color(0, 0.6426263, 0.71000457, 1)
+
+[node name="Game" type="Node3D"]
+script = ExtResource("1_uwrxv")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.44967765, 0.8931909, 0, -0.8931909, 0.44967765, -3.8328981, 97.67791, 0)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_uwrxv")
