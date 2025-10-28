@@ -15,6 +15,10 @@ run/main_scene="uid://dim3n6upgg5k3"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[global_group]
+
+marker=""
+
 [input]
 
 left={
